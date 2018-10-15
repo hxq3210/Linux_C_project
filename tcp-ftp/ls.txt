@@ -1,0 +1,10 @@
+总用量 80
+-rwxrwxr-x 1 x x 13960 8月  13 07:43 c
+-rw-rw-r-- 1 x x  3075 8月  13 07:43 client_ftp.c
+-rw-r--r-- 1 x x 13464 8月   7 18:55 data
+-rw-r--r-- 1 x x 13464 8月   7 18:55 data1
+-rw-rw-r-- 1 x x   723 8月  13 07:35 head.h
+-rw-rw-r-- 1 x x     0 8月  14 21:11 ls.txt
+-rw-r--r-- 1 x x    90 8月   7 17:51 Makefile
+-rwxrwxr-x 1 x x 14080 8月  13 07:40 s
+-rw-rw-r-- 1 x x  3305 8月  13 07:40 server_ftp.c
