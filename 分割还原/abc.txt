@@ -1,0 +1,1000 @@
+ 1082  cd 05
+ 1083  ls
+ 1084  cd ..
+ 1085  ls
+ 1086  cd ..
+ 1087  cd weekend/
+ 1088  ls
+ 1089  cd pipo/
+ 1090  ls
+ 1091  cd file/
+ 1092  ls
+ 1093  vi file_read.c 
+ 1094  cd ..
+ 1095  ls
+ 1096  cd ..
+ 1097  ls
+ 1098  cd myshell/
+ 1099  ls
+ 1100  vi myshell.c 
+ 1101  cd ..
+ 1102  ls
+ 1103  cd myshell/
+ 1104  ./a.out 
+ 1105  cd ..
+ 1106  ps -ef
+ 1107  top
+ 1108  cd ..
+ 1109  ls
+ 1110  mkdir 11
+ 1111  cd 11
+ 1112  ls
+ 1113  cd Desktop/sg_class/11/
+ 1114  ls
+ 1115  ./snd 
+ 1116  man gets
+ 1117  man msgbuf
+ 1118  ./snd 
+ 1119  ./rcv 
+ 1120  vi msgrcv.c 
+ 1121  ./rcv 
+ 1122  man fgets
+ 1123  ./rcv 
+ 1124  vi msgrcv.c 
+ 1125  gcc msgrcv.c -o rcv
+ 1126  vi msgrcv.c 
+ 1127  gcc msgrcv.c -o rcv
+ 1128  ./rcv 
+ 1129  ./snd 
+ 1130  ls
+ 1131  vi msgget.c 
+ 1132  vi msgrcv.c.c 
+ 1133  vi msgrcv.c
+ 1134  gcc msgrcv.c -o rcv
+ 1135  ./rcv 
+ 1136  vi msgrcv.c
+ 1137  ipcs -a
+ 1138  ipcrm -q 65536
+ 1139  ./rcv 
+ 1140  vi msgrcv.c
+ 1141  gcc msgrcv.c -o rec
+ 1142  ./rec 
+ 1143  rm rec 
+ 1144  vi msgrcv.c 
+ 1145  gcc msgrcv.c -o rcv
+ 1146  vi msgrcv.c 
+ 1147  gcc msgrcv.c -o rcv
+ 1148  ./a.out 
+ 1149  ./rcv 
+ 1150  vi msgrcv.c 
+ 1151  gcc msgrcv.c -o rcv
+ 1152  ./rcv 
+ 1153  gedit sndrcy/msgsnd.c 
+ 1154  ./rcv 
+ 1155  cd Desktop/sg_class/11/shm/
+ 1156  ./b.out 
+ 1157  ./b.out a.out 
+ 1158  cd Desktop/sg_class/11/shm/
+ 1159  ls
+ 1160  cat test 
+ 1161  man strcat
+ 1162  cd Desktop/sg_class/11/shm/
+ 1163  ls
+ 1164  gcc shmread.c -o b.out 
+ 1165  ./b
+ 1166  ./b.out 
+ 1167  ipcs -a
+ 1168  ipcs -q 11567137
+ 1169  ipcs -a
+ 1170  ./b.out 
+ 1171  ./a.out 
+ 1172  vi shmread.c 
+ 1173  gcc shmread.c -o b.out 
+ 1174  vi shmread.c 
+ 1175  gcc shmread.c -o b.out 
+ 1176  vi shmread.c 
+ 1177  gcc shmread.c -o b.out 
+ 1178  ./b.out 
+ 1179  vi shmread.c 
+ 1180  ./b
+ 1181  ./b.out 
+ 1182  ./a.out 
+ 1183  vi shmread.c 
+ 1184  gcc shmread.c -o b.out 
+ 1185  ./b.out 
+ 1186  vi shmread.c 
+ 1187  gcc shmread.c -o b.out 
+ 1188  ./b.out 
+ 1189  ls
+ 1190  cat test 
+ 1191  vi test 
+ 1192  vi shmread.c 
+ 1193  gcc shmread.c -o b.out 
+ 1194  ./b.out 
+ 1195  cd Desktop/sg_class/11/shm/
+ 1196  ls
+ 1197  ./b.out 
+ 1198  vi shmshare_write.c 
+ 1199  gcc shmshare_write.c head.c 
+ 1200  ./a.out 
+ 1201  exit
+ 1202  cd Desktop/sg_class/proc/06/
+ 1203  ls
+ 1204  cat ftok.c 
+ 1205  ll
+ 1206  gcc ftok.c 
+ 1207  sudo chmod 777 *
+ 1208  gcc ftok.c 
+ 1209  ./a.out 
+ 1210  vi a
+ 1211  ls
+ 1212  ll
+ 1213  rm  a
+ 1214  sudo chown * x:x
+ 1215  ll
+ 1216  man chown
+ 1217  sudo chown  x:x *
+ 1218  ll
+ 1219  rm a
+ 1220  rm a -r
+ 1221  sudo rm a -r
+ 1222  ll
+ 1223  sudo rm b -r
+ 1224  ll
+ 1225  cat ftok.c 
+ 1226  ls
+ 1227  cat daemon.c
+ 1228  vi daemon.c
+ 1229  ll
+ 1230  vi ftok.c 
+ 1231  cat ftok.c 
+ 1232  ls
+ 1233  cd Desktop/sg_class/
+ 1234  ls
+ 1235  cd 11/
+ 1236  ls
+ 1237  ipcs -a
+ 1238  vi ftok.c
+ 1239  gcc ftok.c 
+ 1240  vi ftok.c
+ 1241  gcc ftok.c 
+ 1242  ./a.out 
+ 1243  ipcs -a
+ 1244  vi msgget.c
+ 1245  gcc msgget.c 
+ 1246  vi msgget.c
+ 1247  gcc msgget.c 
+ 1248  vi msgget.c
+ 1249  gcc msgget.c 
+ 1250  ./a.out 
+ 1251  ipcs -a
+ 1252  ls
+ 1253  cp msgget.c msgrcv.c
+ 1254  cp msgget.c msgsnd.c
+ 1255  vi msgrcv.c 
+ 1256  vi msgsnd.c 
+ 1257  gcc msgsnd.c -o snd
+ 1258  gcc msgrcv.c -o rcv
+ 1259  ./snd 
+ 1260  ./rcv
+ 1261  vi msgrcv.c 
+ 1262  vi msgsnd.c.c 
+ 1263  vi msgsnd.c
+ 1264  gcc msgsnd.c -o snd
+ 1265  vi msgsnd.c
+ 1266  gcc msgsnd.c -o snd
+ 1267  ./rcv
+ 1268  vi msgsnd.c
+ 1269  gcc msgsnd.c -o snd
+ 1270  ./snd 
+ 1271  vi msgsnd.c
+ 1272  gcc msgsnd.c -o snd
+ 1273  ./snd 
+ 1274  vi msgsnd.c
+ 1275  gcc msgsnd.c -o snd
+ 1276  ./snd 
+ 1277  vi msgsnd.c
+ 1278  gcc msgsnd.c -o snd
+ 1279  ./snd 
+ 1280  vi msgrcv.c 
+ 1281  ls
+ 1282  ipcs -a
+ 1283  ipcrm 0
+ 1284  ipcrm -q 0
+ 1285  ipcs -a
+ 1286  vi msgsnd.c 
+ 1287  gcc msgsnd.c -o snd
+ 1288  ./snd 
+ 1289  vi msgsnd.c 
+ 1290  gcc msgsnd.c -o snd
+ 1291  vi msgsnd.c 
+ 1292  gcc msgsnd.c -o snd
+ 1293  vi msgsnd.c 
+ 1294  gcc msgsnd.c -o snd
+ 1295  ./snd 
+ 1296  vi msgsnd.c 
+ 1297  gcc msgsnd.c -o snd
+ 1298  vi msgsnd.c 
+ 1299  man gets
+ 1300  man fgets
+ 1301  vi msgsnd.c 
+ 1302  gcc msgsnd.c -o snd
+ 1303  ./snd 
+ 1304  ipcs -a
+ 1305  ipcrm -q 32768
+ 1306  ipcs -a
+ 1307  ./snd 
+ 1308  vi msgsnd.c 
+ 1309  gcc msgsnd.c -o snd
+ 1310  ./snd 
+ 1311  ./rcv 
+ 1312  vi msgsnd.c 
+ 1313  gcc msgsnd.c -o snd
+ 1314  ./snd 
+ 1315  vi msgsnd.c 
+ 1316  gcc msgsnd.c -o snd
+ 1317  ./snd 
+ 1318  vi msgsnd.c 
+ 1319  gcc msgsnd.c -o snd
+ 1320  ./snd 
+ 1321  vi msgsnd.c 
+ 1322  gcc msgsnd.c -o snd
+ 1323  ./snd 
+ 1324  ./snd
+ 1325  ls
+ 1326  cd sndrcy/
+ 1327  ls
+ 1328  cat msgsnd.c 
+ 1329  cd ..
+ 1330  cd sndrcy/
+ 1331  ls
+ 1332  gedit msgsnd.c 
+ 1333  cd ..
+ 1334  ls
+ 1335  vi msgsnd.c 
+ 1336  gcc msgsnd.c -o snd
+ 1337  vi msgsnd.c 
+ 1338  gcc msgsnd.c -o snd
+ 1339  ./snd
+ 1340  vi msgsnd.c 
+ 1341  gcc msgsnd.c -o snd
+ 1342  ./snd
+ 1343  ls
+ 1344  reset 
+ 1345  ipcs -a
+ 1346  ipcrm -q 98304
+ 1347  ls
+ 1348  rm rcv 
+ 1349  rm snd
+ 1350  rm a.out 
+ 1351  ls
+ 1352  mkdir msg
+ 1353  cd msg/
+ 1354  ls
+ 1355  cp ../msgrcv.c ./
+ 1356  cp ../msgsnd.c ./
+ 1357  ls
+ 1358  vi msgrcv.c 
+ 1359  gcc msgrcv.c 
+ 1360  vi msgsnd.c 
+ 1361  gcc msgsnd.c 
+ 1362  vi msgsnd.c 
+ 1363  gcc msgsnd.c 
+ 1364  vi msgsnd.c 
+ 1365  ipcs -l
+ 1366  vi msgsnd.c 
+ 1367  gcc msgsnd.c 
+ 1368  vi msgsnd.c 
+ 1369  gcc msgsnd.c 
+ 1370  ./a.out 
+ 1371  vi msgsnd.c 
+ 1372  ipcs -a
+ 1373  vi msgsnd.c 
+ 1374  gcc msgsnd.c 
+ 1375  vi msgsnd.c 
+ 1376  gcc msgsnd.c 
+ 1377  vi msgsnd.c 
+ 1378  gcc msgsnd.c 
+ 1379  ./a.out 
+ 1380  ipcs -a
+ 1381  vi msgsnd.c 
+ 1382  ipcs -a
+ 1383  ./a.out 
+ 1384  ipcs -a
+ 1385  vi msgsnd.c 
+ 1386  ls
+ 1387  reset 
+ 1388  ls
+ 1389  vi msgsnd.c 
+ 1390  ipcs -a
+ 1391  ipcs -l
+ 1392  vi msgsnd.c 
+ 1393  cp msgsnd.c msgsnd1.c 
+ 1394  vi msgsnd1.c 
+ 1395  gcc msgsnd1.c 
+ 1396  ./a.out 
+ 1397  ipcs -a
+ 1398  ipcrm -q 2097283072
+ 1399  vi msgsnd1.c 
+ 1400  gcc msgsnd1.c 
+ 1401  ./a.out 
+ 1402  ipcs -a
+ 1403  ls
+ 1404  cd ..
+ 1405  ls
+ 1406  vi shmget.c
+ 1407  ls
+ 1408  mkdir shm
+ 1409  mv shmget.c shm
+ 1410  cd shm/
+ 1411  cp shmget.c shmwrite.c 
+ 1412  mv shmget.c shmread.c
+ 1413  ls
+ 1414  vi shmwrite.c 
+ 1415  gcc shmwrite.c 
+ 1416  vi shmwrite.c 
+ 1417  gcc shmwrite.c 
+ 1418  man system
+ 1419  vi shmwrite.c 
+ 1420  gcc shmwrite.c 
+ 1421  ./a.out 
+ 1422  ./a.out asd
+ 1423  vi shmread.c 
+ 1424  gcc shmread.c 
+ 1425  ./a.out 
+ 1426  ./a.out zxc
+ 1427  gcc shmread.c -o a.out 
+ 1428  gcc shmwrite.c -o b.out
+ 1429  ./a.out 
+ 1430  ./a.out b.out 
+ 1431  vi shmread.c 
+ 1432  ls
+ 1433  rm a.out b.out 
+ 1434  ls
+ 1435  vi shmread.c 
+ 1436  ls
+ 1437  touch test
+ 1438  gcc shmread.c 
+ 1439  ./a.out 
+ 1440  gcc shmwrite.c -o b.out
+ 1441  ./b.out 
+ 1442  ./a.out 
+ 1443  vi shmwrite.c 
+ 1444  gcc shmwrite.c 
+ 1445  ./a.out 
+ 1446  vi shmwrite.c 
+ 1447  ./a.out 
+ 1448  ./b.out 
+ 1449  vi shmwrite.c 
+ 1450  gcc shmwrite.c 
+ 1451  vi shmwrite.c 
+ 1452  gcc shmwrite.c 
+ 1453  vi shmwrite.c 
+ 1454  gcc shmwrite.c 
+ 1455  vi shmwrite.c 
+ 1456  gcc shmwrite.c 
+ 1457  vi shmwrite.c 
+ 1458  gcc shmwrite.c 
+ 1459  vi shmwrite.c 
+ 1460  gcc shmwrite.c 
+ 1461  vi shmwrite.c 
+ 1462  gcc shmwrite.c 
+ 1463  ./a.out 
+ 1464  vi shmwrite.c 
+ 1465  gcc shmwrite.c 
+ 1466  ./a.out 
+ 1467  vi shmwrite.c 
+ 1468  ./a.out 
+ 1469  vi shmwrite.c 
+ 1470  gcc shmwrite.c 
+ 1471  ./a.out 
+ 1472  vi shmwrite.c 
+ 1473  gcc shmwrite.c 
+ 1474  vi shmwrite.c 
+ 1475  gcc shmwrite.c 
+ 1476  vi shmwrite.c 
+ 1477  gcc shmwrite.c 
+ 1478  vi shmwrite.c 
+ 1479  gcc shmwrite.c 
+ 1480  vi shmwrite.c 
+ 1481  gcc shmwrite.c 
+ 1482  ./a.out 
+ 1483  vi shmwrite.c 
+ 1484  gcc shmwrite.c 
+ 1485  vi shmwrite.c 
+ 1486  gcc shmwrite.c 
+ 1487  ./a.out 
+ 1488  ipcs -s
+ 1489  sl
+ 1490  ls
+ 1491  cp ~/Desktop/sg_class/proc/06/shmread_sem.c ./
+ 1492  cp ~/Desktop/sg_class/proc/06/shmwrite_sem.c ./
+ 1493  ls
+ 1494  cp ~/Desktop/sg_class/proc/06/head.* ./
+ 1495  cat shmread.c 
+ 1496  vi shmshare_read.c
+ 1497  ls
+ 1498  vi shmshare_read.c
+ 1499  vi shmshare_write.c
+ 1500  gcc shmshare_write.c 
+ 1501  gcc shmshare_write.c head.c
+ 1502  gcc shmshare_read.c head.c
+ 1503  vi shmshare_read.c 
+ 1504  gcc shmshare_read.c head.c
+ 1505  ls
+ 1506  ./a.out 
+ 1507  gcc shmshare_write.c head.c
+ 1508  vi shmshare_write.c 
+ 1509  vi shmshare_read.c
+ 1510  gcc shmshare_write.c head.c
+ 1511  gcc shmshare_read.c head.c
+ 1512  gcc shmshare_read.c head.c -o b.out 
+ 1513  ./a.out 
+ 1514  ls
+ 1515  vi shmshare_read.c 
+ 1516  gcc shmshare_read.c head.c -o b.out 
+ 1517  ./b.out 
+ 1518  cd ..
+ 1519  ls
+ 1520  cd text_file/
+ 1521  ls jsj/
+ 1522  sudo mount 172.16.6.100:/mnt/nfs jsj/
+ 1523  ls jsj/
+ 1524  cd jsj/proc/
+ 1525  ls
+ 1526  sudp cp 06 ~/Desktop/sg_class/proc/ -r
+ 1527  sudo cp 06 ~/Desktop/sg_class/proc/ -r
+ 1528  ls
+ 1529  cd 06/
+ 1530  ls
+ 1531  cd ..
+ 1532  sudo cp 06 ~/Desktop/sg_class/proc/ -r
+ 1533  cd 06
+ 1534  ls
+ 1535  ./delmsg.sh 
+ 1536  cat delmsg.sh 
+ 1537  ls
+ 1538  ./delmsg.sh 
+ 1539  cd ..
+ 1540  sudo cp 06 ~/Desktop/sg_class/proc/ -r
+ 1541  cd ..
+ 1542  cd 
+ 1543  sudo umount jsj/
+ 1544  cd Desktop/sg_class/11/shm/
+ 1545  ls
+ 1546  cat shmread_sem.c 
+ 1547  cat shmwrite_sem.c 
+ 1548  ls
+ 1549  cd ..
+ 1550  ls
+ 1551  mkdir text_file
+ 1552  cd text_file/
+ 1553  cp ../shm/head.* ./
+ 1554  cp ../shm/shmshare_* ./
+ 1555  ls
+ 1556  vi shmshare_read.c 
+ 1557  cd Desktop/sg_class/
+ 1558  ls
+ 1559  cd 08
+ 1560  ls
+ 1561  cd ..
+ 1562  cd 07
+ 1563  ls
+ 1564  cat fork.c 
+ 1565  ls
+ 1566  cd ..
+ 1567  cd 06/
+ 1568  ls
+ 1569  cat fork_back.c 
+ 1570  ls
+ 1571  ./a.out 
+ 1572  ls
+ 1573  cd ..
+ 1574  cd 05
+ 1575  ls
+ 1576  cd ..
+ 1577  cd 07
+ 1578  ls
+ 1579  cd ../08
+ 1580  ls
+ 1581  cd ..
+ 1582  ls
+ 1583  cd 07
+ 1584  ls
+ 1585  cd Desktop/sg_class/11/text_file/
+ 1586  ls
+ 1587  vi shmshare_read.c 
+ 1588  ls
+ 1589  cd ..
+ 1590  cd proc/
+ 1591  ls
+ 1592  cd 06/
+ 1593  ls
+ 1594  ll
+ 1595  vi daemon.c
+ 1596  ls
+ 1597  cd ..
+ 1598  cd 11
+ 1599  ls
+ 1600  cd mylog/
+ 1601  ls
+ 1602  vi daemon.c 
+ 1603  vi daemon.c
+ 1604  ps -ef a.out 
+ 1605  ps -ef |grep a.out 
+ 1606  killall -9 a.out 
+ 1607  ps -ef |grep a.out 
+ 1608  cd Desktop/sg_class/11/text_file/
+ 1609  vi shmshare_write.c 
+ 1610  ls
+ 1611  cd ..
+ 1612  ls
+ 1613  mkdir mylog
+ 1614  cd mylog/
+ 1615  vi daemon.c
+ 1616  gcc daemon.c 
+ 1617  vi daemon.c
+ 1618  gcc daemon.c 
+ 1619  ./a.out 
+ 1620  ./a.out ./
+ 1621  ll
+ 1622  ls
+ 1623  ./a.out 
+ 1624  ./a.out daemon.c 
+ 1625  ls
+ 1626  cat daemon.log 
+ 1627  vi daemon.c
+ 1628  gcc daemon.c
+ 1629  vi daemon.c
+ 1630  gcc daemon.c
+ 1631  ./a.out 
+ 1632  ./a.out daemon.c
+ 1633  ls
+ 1634  ./a.out daemon.c
+ 1635  cat daemon.log 
+ 1636  vi daemon.c
+ 1637  ads
+ 1638  gcc daemon.c
+ 1639  ./a.out 
+ 1640  ./a.out daemon.c
+ 1641  vi daemon.c
+ 1642  ls
+ 1643  cd ..
+ 1644  cd m
+ 1645  cd mylog/
+ 1646  ls
+ 1647  cat daemon.log 
+ 1648  q
+ 1649  ls
+ 1650  vi daemon.c
+ 1651  cat daemon.log 
+ 1652  cd ..
+ 1653  ls
+ 1654  cd shm/
+ 1655  ls
+ 1656  cd ..
+ 1657  mkdir 
+ 1658  mkdir shmshare
+ 1659  ls
+ 1660  cd shm
+ 1661  ls
+ 1662  cp shmshare_* ../shmshare/
+ 1663  mv shmshare_* ../shmshare/
+ 1664  ls
+ 1665  mv head.* ../shmshare/
+ 1666  ls
+ 1667  cd ..
+ 1668  cd shmshare/
+ 1669  ls
+ 1670  cd ..
+ 1671  ls
+ 1672  cd text_file/
+ 1673  ls
+ 1674  ll
+ 1675  chmod 777 *
+ 1676  ll
+ 1677  ./shmread
+ 1678  ./shmread test 
+ 1679  cat test 
+ 1680  ./shmread test 
+ 1681  cat head.c 
+ 1682  cat test 
+ 1683  touch 111
+ 1684  vi 111
+ 1685  ./shmsend 111 
+ 1686  vi shmwrite_sem.c 
+ 1687  ./delmsg.sh 
+ 1688  ./shmwrite_sem.c 
+ 1689  ls
+ 1690  ./shmsend 
+ 1691  ./shmsend 111 
+ 1692  ifconfig 
+ 1693  sudo mount 172.16.6.100:/mnt/share jsj/
+ 1694  ls jsj/
+ 1695  sudo mount 172.16.6.100:/mnt/share jsj/
+ 1696  ./shmsend test 
+ 1697  ./shmsend head.c
+ 1698  rm shmsend 
+ 1699  rm shmwrite
+ 1700  rm shmread
+ 1701  rm shmrecv 
+ 1702  make
+ 1703  ./shmrecv test 
+ 1704  cat test 
+ 1705  vi shmread_sem.c 
+ 1706  ipcs -a
+ 1707  ipcs -s
+ 1708  vi shmread_sem.c 
+ 1709  ls
+ 1710  ./shmread_sem.c test 
+ 1711  vi shmread_sem.c 
+ 1712  ls
+ 1713  ./shmrecv test 
+ 1714  cat test 
+ 1715  ipcs -m
+ 1716  ipcrm -q 2523153
+ 1717  ipcs -m
+ 1718  cd 
+ 1719  cd Desktop/
+ 1720  ls
+ 1721  cd sg_class/
+ 1722  ls
+ 1723  mkdir 12
+ 1724  ifconfig 
+ 1725  sudo mount 172.16.6.100:/mnt/share jsj/
+ 1726  ls jsj/
+ 1727  sudo umount jsj/
+ 1728  sudo mount 172.16.6.100:/mnt/nfs jsj/
+ 1729  ls jsj/
+ 1730  sudo cp jsj/network Desktop/sg_class/ -r
+ 1731  cd Desktop/sg_class/
+ 1732  ls
+ 1733  cd network/
+ 1734  ls
+ 1735  cd 
+ 1736  cd jsj/
+ 1737  ls
+ 1738  cd network/
+ 1739  ls
+ 1740  rm yyy*
+ 1741  ls
+ 1742  rmdir yyy
+ 1743  rmdir yyy2/
+ 1744  cd ..
+ 1745  ls
+ 1746  sudo mkdir /mnt/smbshare
+ 1747  sudo chmod 777 /mnt/smbshare
+ 1748  sudo apt-get autoutoremove samba
+ 1749  sudo apt-get install samba
+ 1750  sudo vim /etc/samba/smb.conf 
+ 1751  sudo /etc/init.d/smbd restart
+ 1752  vi /etc/exports 
+ 1753  service nfs-kernel-server restart 
+ 1754  service nfs-kernel-server stop 
+ 1755  sudo smbclient -L
+ 1756  sudo /etc/init.d/smbd  stop
+ 1757  sudo apt-get smclient
+ 1758  sudo apt-get install smclient
+ 1759  sudo apt-get install cifs-utils
+ 1760  sudo smbclient -L 192.168.23.3
+ 1761  sudo apt-get install samba
+ 1762  sudo apt-get autoremove samba
+ 1763  sudo apt-get update 
+ 1764  sudo apt-get install samba
+ 1765  sudo vim /etc/samba/smb.conf 
+ 1766  sudo /etc/init.d/smbd restart
+ 1767  sudo /etc/init.d/smbd stop
+ 1768  ifconfig 
+ 1769  cd jsj/
+ 1770  ls
+ 1771  cd yxf尤新凤/
+ 1772  ls
+ 1773  cd ..
+ 1774  ls
+ 1775  mv yxf尤新凤/ ./demo
+ 1776  ls
+ 1777  cd ..
+ 1778  cd jsj/
+ 1779  ls
+ 1780  sudo cp /etc/vim/vimrc ./
+ 1781  ls
+ 1782  mount
+ 1783  cd 
+ 1784  sudo smbclient 172.16.6.33/
+ 1785  sudo /etc/init.d/smbd restart
+ 1786  sudo apt-get install smbclient
+ 1787  sudo smbclient -L //172.16.6.33//smbshare 
+ 1788  get
+ 1789  sudo smbclient -L //172.16.6.33/mnt/smbshare 
+ 1790  sudo /etc/init.d/smbd restart
+ 1791  sudo vi /etc/samba/smb.conf 
+ 1792  sudo /etc/init.d/smbd stop 
+ 1793  sudo apt-get install openssh
+ 1794  sudo apt-get install openssh*
+ 1795  man ftll
+ 1796  man ftell
+ 1797  cd Desktop/sg_class/
+ 1798  ls
+ 1799  cd network/
+ 1800  ls
+ 1801  ll
+ 1802  cd ubuntu\ server/
+ 1803  ls
+ 1804  cat ubuntu-samba.txt 
+ 1805  ls
+ 1806  ifconfig 
+ 1807  ls
+ 1808  cd ..
+ 1809  ls
+ 1810  cp * ~/jsj/ -r
+ 1811  sudo cp * ~/jsj/ -r
+ 1812  ls ~/jsj/
+ 1813  sudo cp * ~/jsj/ -r
+ 1814  ls
+ 1815  cd ubuntu\ server/
+ 1816  ls
+ 1817  cat ubuntu-samba.txt 
+ 1818  cd 
+ 1819  cd ..
+ 1820  cd ~/Desktop/sg_class/network/ubuntu\ server/
+ 1821  ls
+ 1822  cd ..
+ 1823  ls
+ 1824  cd 
+ 1825  cd Desktop/sg_class/
+ 1826  ls
+ 1827  cd proc/
+ 1828  ls
+ 1829  cd ,,
+ 1830  cd ..
+ 1831  ls
+ 1832  cd 12
+ 1833  ls
+ 1834  cd ..
+ 1835  ls
+ 1836  cd 项目/
+ 1837  ls
+ 1838  mkdir IO_线程进程
+ 1839  cd IO_线程进程/
+ 1840  ls
+ 1841  vi file_cut.c
+ 1842  vi file_back.c
+ 1843  vi file_cut.c 
+ 1844  vi demo.c
+ 1845  gedit demo.c 
+ 1846  vi demo.c
+ 1847  gcc demo.c 
+ 1848  vi demo.c
+ 1849  gcc demo.c 
+ 1850  ./a.out 
+ 1851  ls
+ 1852  ll
+ 1853  cat file_cuta.txt 
+ 1854  cat file_c
+ 1855  cat file_cut.c 
+ 1856  mv file_cuta.txt 11.txt
+ 1857  ll
+ 1858  ./a.out 
+ 1859  ll
+ 1860  cat 11a.txt 
+ 1861  rm 11a.txt 
+ 1862  ls
+ 1863  ./a.out 
+ 1864  ll
+ 1865  ./a.out 
+ 1866  ll
+ 1867  rm 11a.txt 
+ 1868  ls
+ 1869  ll
+ 1870  vi demo2.c
+ 1871  gedit demo2.c 
+ 1872  vi demo2.c 
+ 1873  gcc demo2.c 
+ 1874  vi demo2.c 
+ 1875  gcc demo2.c 
+ 1876  ./a.out 
+ 1877  ls
+ 1878  vi aa.txt
+ 1879  history > aa.txt 
+ 1880  ll
+ 1881  ./a.out 
+ 1882  ./a.out aa.txt 
+ 1883  touch abc.txt
+ 1884  ./a.out 
+ 1885  ll
+ 1886  vi abc.txt 
+ 1887  ll
+ 1888  ./a.out 
+ 1889  ll
+ 1890  cat aa0.txt 
+ 1891  cat aa.txt 
+ 1892  cat abc.txt 
+ 1893  ll
+ 1894  ./a.out 
+ 1895  ll
+ 1896  rm aa0.txt 
+ 1897  ./a.out 
+ 1898  ll
+ 1899  vi abc.txt 
+ 1900  ll
+ 1901  rm aa0.txt 
+ 1902  ll
+ 1903  ./a.out 
+ 1904  ll
+ 1905  vi demo2.c 
+ 1906  gcc demo2.c 
+ 1907  ll
+ 1908  ./a.out 
+ 1909  ll
+ 1910  vi demo2.c 
+ 1911  gcc demo2.c 
+ 1912  ll
+ 1913  rm aa*
+ 1914  ll
+ 1915  ./a.out 
+ 1916  ll
+ 1917  history > abc.txt
+ 1918  ll
+ 1919  rm aa0.txt 
+ 1920  ll
+ 1921  ./a.out 
+ 1922  ll
+ 1923  rm aa*
+ 1924  ls
+ 1925  ll
+ 1926  vi demo2.c 
+ 1927  dd
+ 1928  ls
+ 1929  vi demo2.c 
+ 1930  gcc demo2.c 
+ 1931  ll
+ 1932  ./a.out 
+ 1933  ll
+ 1934  rm aa*
+ 1935  ll
+ 1936  vi demo2.c 
+ 1937  gcc demo2.c 
+ 1938  ./a.out 
+ 1939  ll
+ 1940  rm aa*
+ 1941  ll
+ 1942  ./a.out 
+ 1943  ll
+ 1944  rm aa*
+ 1945  ll
+ 1946  ./a.out 
+ 1947  ll
+ 1948  rm aa*
+ 1949  ls
+ 1950  ll
+ 1951  vi demo2.c 
+ 1952  gcc demo2.c 
+ 1953  ./a.out 
+ 1954  ll
+ 1955  rm aa*
+ 1956  ll
+ 1957  vi demo2.c 
+ 1958  gcc demo2.c 
+ 1959  ./a.out 
+ 1960  vi demo2.c 
+ 1961  ll
+ 1962  gcc demo2.c 
+ 1963  ll
+ 1964  ./a.out 
+ 1965  vi demo2.c 
+ 1966  gcc demo2.c 
+ 1967  ./a.out 
+ 1968  vi demo2.c 
+ 1969  ls jsj/
+ 1970  cd jsj/network/
+ 1971  ls
+ 1972  sudo cp * ~/Desktop/sg_class/network/ -r
+ 1973  ll
+ 1974  sudo chmod * 777
+ 1975  cat 01.txt 
+ 1976  ls
+ 1977  sudo cp network.bmp ~/Desktop/ -r
+ 1978  cd ubuntu\ server/
+ 1979  ls
+ 1980  ll
+ 1981  cd 
+ 1982  sudo umount jsj/
+ 1983  ls jsj/
+ 1984  sudo mount 172.16.6.100:/mnt/share jsj/
+ 1985  sudo cp jsj/* Desktop/class/demo/ -r
+ 1986  sudo umount jsj/
+ 1987  sudo mount 172.16.6.100:/mnt/nfs jsj/
+ 1988  cd jsj/
+ 1989  ls
+ 1990  cd proc/
+ 1991  ls
+ 1992  cd 06/
+ 1993  ls
+ 1994  cd ..
+ 1995  sudo cp 06 ~/Desktop/sg_class/proc/ -r
+ 1996  cd 
+ 1997  ls jsj/
+ 1998  sudo umount jsj/
+ 1999  cd Desktop/sg_class/12/
+ 2000  ls
+ 2001  cd ..
+ 2002  cd 11/
+ 2003  ls
+ 2004  cd ..
+ 2005  ls
+ 2006  cd 10
+ 2007  ls
+ 2008  cd ..
+ 2009  ls
+ 2010  cd ..
+ 2011  ls
+ 2012  cd class/
+ 2013  ls
+ 2014  cd ..
+ 2015  cd Desktop/项目/
+ 2016  ls
+ 2017  cd IO_线程进程/
+ 2018  ls
+ 2019  vi demo2.c 
+ 2020  cd ..
+ 2021  ls
+ 2022  sudo chmod 664 *
+ 2023  ll
+ 2024  ls
+ 2025  mkdir daemon_守护日志
+ 2026  cd daemon_守护日志/
+ 2027  vi daemon_exp.c
+ 2028  gcc daemon_exp.c 
+ 2029  vi daemon_exp.c
+ 2030  gcc daemon_exp.c 
+ 2031  vi daemon_exp.c
+ 2032  gcc daemon_exp.c 
+ 2033  ls
+ 2034  ./a.out 
+ 2035  ps aux|grep a.out 
+ 2036  vi daemon_exp.c
+ 2037  gcc daemon_exp.c 
+ 2038  vi daemon_exp.c
+ 2039  man syslog 
+ 2040  vi daemon_exp.c
+ 2041  gcc daemon_exp.c 
+ 2042  ./a.out 
+ 2043  ps aux|grep a.out 
+ 2044  cd ..
+ 2045  ls
+ 2046  cd IO_线程进程/
+ 2047  cd IO_线程进程
+ 2048  ll
+ 2049  sudo chmod 774 *
+ 2050  ll
+ 2051  sudo chmod 775 *
+ 2052  ll
+ 2053  cd IO_线程进程/
+ 2054  ls
+ 2055  vi demo2.c 
+ 2056  gcc demo2.c 
+ 2057  vi demo2.c 
+ 2058  gcc demo2.c 
+ 2059  ./a.out 
+ 2060  vi demo2.c 
+ 2061  vi demo3.c
+ 2062  gedit demo3.c 
+ 2063  vi demo3.c
+ 2064  gcc demo3.c 
+ 2065  rm demo3.c 
+ 2066  vi demo.c 
+ 2067  gcc demo.c 
+ 2068  ./a.out 
+ 2069  ll
+ 2070  rm abca.txt 
+ 2071  vi demo.c 
+ 2072  ./a.out 
+ 2073  ll
+ 2074  rm abc*
+ 2075  ls
+ 2076  ll
+ 2077  rm 11.txt 
+ 2078  ls
+ 2079  history > a.txt
+ 2080  ll
+ 2081  history > abc.txt
